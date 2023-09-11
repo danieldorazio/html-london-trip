@@ -22,42 +22,48 @@
 
     <!-- MAIN -->
     <main>
-
+        
         <!-- TABELLA LE MIE SPESE -->
         <section class="spese">
             <h2>Le mie spese</h2>
             <table>
-                <tr>
-                    <th>Numero</th>
-                    <th>Descrizione</th>
-                    <th>Costo</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120&#8364;</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120&#8364;</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120&#8364;</td>
-                </tr>
-                <tr>
-                    <td colspan="2">Totale</td>  <!--colspan attributo per far occupare più posti-->
-                    <td>360&#8364;</td>
-                </tr>
+                <thead>
+                    <tr>
+                        <th>Numero</th>
+                        <th>Descrizione</th>
+                        <th>Costo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120&#8364;</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120&#8364;</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120&#8364;</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Totale</td>  <!--colspan attributo per far occupare più posti-->
+                        <td>360&#8364;</td>
+                    </tr>
+                </tfoot>
             </table>
         </section>
         <hr>
 
         <!-- LISTA COSE DA FARE -->
         <section class="fare">
-            <h2>Cose da fare</h2>
+            <h3>Cose da fare</h3>
             <ul>
                 <li>Visitare la Tower of London &cross;</li>
                 <li>Visitare Greenwich &check;</li>
@@ -69,32 +75,24 @@
 
         <!-- LISTA ANNIDATA INFO UTILI -->
         <section class="info">
-            <h2>Info utili:</h2>
+            <h3>Info utili:</h3>
             <ol>
                 <li> Numeri utili di emergenza
                     <ul>
                         <li><strong>999</strong> - Emergenza</li>
-                    </ul>
-                    <ul>
                         <li><strong>101</strong> - Numero polizia</li>
-                    </ul>
-                    <ul>
                         <li><strong>111</strong> - Numero assistenza medica</li>
                     </ul>
                 </li>
                 <li> Hotel
                     <ul>
                         <li><strong>Nome hotel</strong>: Buckingham Palace </li>
-                    </ul>
-                    <ul>
                         <li><strong>Indirizzo hotel</strong>: Westminster, London SW1A1AA, Regno Unito</li>
                     </ul>
                 </li>
                 <li> Aereo
                     <ul>
                         <li><strong>Volo di Andata</strong>: Y1234X, ore 9.30 da Milano Malpensa</li>
-                    </ul>
-                    <ul>
                         <li><strong>Volo di Ritorno</strong>: Y1236X, ore 18.30 da London Heathrow</li>
                     </ul>
                 </li>
@@ -103,7 +101,7 @@
         <hr>
 
         <!-- BOX FOTO PONTE -->
-        <h2>Le foto</h2>
+        <h3>Le foto</h3>
         <div class="box ponte">
             <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="Greater London ABTA Regional Business Meeting">
             <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n" alt="Tower Bridge, London on the River Thames at night.">
